@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML 첫시간</title>
+</head>
+<body>
+<!-- h7까지 존재 -->
+<h3>글자 크기 비교</h3> 
+<h1> 커져라 </h1><br/>
+<font size="1"> font 크기 1</font><br/>
+<font size="2"> 폰트 크기 2</font><br/>
+<font size="3"> 폰트 크기 3</font><br/>
+<font size="4"> 폰트 크기 4</font><br/>
+<font size="5"> 폰트 크기 5</font><br/>
+<font size="6"> 폰트 크기 6</font><br/>
+<font size="7"> 폰트 크기 7</font><br/>
+Font 크기 <br/>
+<font size="7" color="cyan" face ="맑은고딕">글자 색, 글씨형태</font><br/>
+<font size="7" color="#89CFF0">뻬이비쁠루</font><br/>
+
+<center><font size="7" color="#90E4FF">쓰머프</font><br/></center>
+
+<!-- 픽셀, % -->
+<hr size="3" color="blue" width="1910" align="left"/>
+
+<!--  밑줄과 기울임 -->
+<font size = "7" color="black"><u>폰트크기 : 7</u></font><br/>
+<font size = "7" color="black"><i>폰트크기 : 7</i></font><br/>
+
+<!--  오른쪽 정렬 -->
+<font size = "7" color="black">
+<p align = "right">
+폰트크기 : 7
+</p>
+</font><br/>
+
+<!--  &nbsp; : 공백,1개 1칸 -->
+네이버&nbsp;&nbsp;&nbsp;다음&nbsp;&nbsp;네이트&nbsp;따수리 <br/>
+
+&lt;html&gt;&lt;/html&gt; <br/>
+
+<!--  ul, 점으로 나열 -->
+<ul>
+	<li> 다수리 </li>
+	<li> 차도박 </li>
+	<li> 루우뱃 </li>
+
+</ul>
+<!--  네모칸 -->
+<ul type ="square">
+	<li> 다수리 </li>
+	<li> 차도박 </li>
+	<li> 루우뱃 </li>
+</ul>
+
+<hr color="red" size="4" align="left" width=905/>
+<h4> [IT시대의 그늘, 전력] 산업 '인터넷데이터 센서 실패 </h4>
+<font size ="3">국민일보 + 기사입력 2020-04-24 14:15</font>
+<img alt="그림없음" src="./img/btn_newspaper.gif" align = "middle"/><br/><br/>
+<p align="center">
+<img alt="그림없음" src="./img/070826_06_02.jpg">
+</p>
+
+<img src="./img/covid19.jpg" align="left"/>
+2019년 12월 중국 우한에서 처음 발생한 이후 중국 전역과 전 세계로 확산된, 
+새로운 유형의 코로나바이러스(SARS-CoV-2)에 의한 호흡기 감염질환이다. 
+코로나바이러스감염증-19는 감염자의 비말(침방울)이 호흡기나 눈·코·입의 점막으로 침투될 때 전염된다.
+감염되면 약 2~14일(추정)의 잠복기를 거친 뒤 발열(37.5도) 및 기침이나 호흡곤란 등 호흡기 증상, 폐렴이 주증상으로 나타나지만
+무증상 감염 사례도 드물게 나오고 있다.
+[네이버 지식백과] 코로나바이러스감염증-19 - (COVID-19) (시사상식사전, pmg 지식엔진연구소)
+<br/><br/><br/><br/><br/>
+
+<img alt ="" src="./img/m0828-1-19031.jpg"><br/>
+
+
+<img alt ="" src="./img/m0828-1-19031.jpg" width=250 height=100><br/>
+
+<!--  하이퍼링크 -->
+<a href="http://m.naver.com">네이버</a>
+<a href="http://192.168.16.13:8080/study/"> 내 홈페이지</a> <br/>
+
+<!--  그림에 링크걸기 -->
+<a href="http://ncov.mohw.go.kr" target="_blank">
+<img src="./img/covid19.jpg" width="250" height="100"><br/>
+</a>
+
+<hr color="cyan" size="4" align="left" width="600"/>
+
+
+<!--  테이블 속성 -->
+<table border="1" cellpadding="20" cellspacing="0" width="600">
+
+<!--  th는 자동으로 bold가 들어가 있음, tr은 자동 왼쪽정렬 -->
+<tr height="50"><th>A</th><th>B</th><th>C</th></tr>
+<tr align="center"><td>가</td><td>나</td><td>다</td></tr>
+<tr height="60" valign="bottom"><td>1</td><td>2</td><td>3</td></tr>
+
+</table>
+
+<br/><br/>
+
+<table border="1" cellpadding="20" cellspacing="0" width="600">
+<!--  colspan,rowspan = "2" 2칸을 병합 -->
+<tr><th>A</th><th colspan="2">B</th></tr>
+<tr><td>가</td><td rowspan="2">나</td><td>다</td></tr>
+<tr><td>1</td><!--  <td>2</td>--><td>3</td></tr>
+</table>
+
+<br/><br/><br/>
+
+<!-- 테이블 중첩 -->
+<table border="1">
+<tr align="center">
+	<td width="100">A</td>
+	<td >
+		<table border="1" width="200" height="200">
+		<tr align="center">
+			<td>B</td>
+			<td>C</td>		
+		</tr>
+		<tr align="center">
+			<td>D</td>
+			<td>E</td>
+		</tr>
+		<tr align="center">
+			<td>F</td>
+			<td>G</td>
+		</tr>
+		</table>	
+	</td>
+</table>
+
+<br/><br/><br/>
+<hr color="cyan" size="3" align="left" width="600"/>
+<br/>	
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td><img src="./img/hot.jpg"></td>
+	<td>
+	<font size="2"><b>화재만발</b></font><br/>
+	<font color="red">&#149;</font>올여름 수영장 비상<br/>
+	<font color="red">&#149;</font>코로나 바이러스 치료제 개발<br/>
+	<font color="red">&#149;</font>일본 바이러스로 침몰<br/>
+	</td>
+</tr>
+<tr>
+	<td colspan="2"><hr></td></tr>
+	<tr>
+	<td><img src="./img/life.jpg"></td>
+	<td>
+	<font size="2"><b>알아두세여</b></font><br/>
+	<font color="red">&#149;</font>마스크 꼭 쓰세요<br/>
+	<font color="red">&#149;</font>주유소 기름값 1000원<br/>
+	<font color="red">&#149;</font>일본 쓰나미로 침몰<br/>
+	</td>
+</tr>
+</table>
+<br/><br/>
+<hr color="cyan" size="3" align="left" width="600"/>
+<br/>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td width="1" bgcolor="#90E4FF"></td>
+	<td>
+		<table border="0" cellpadding="0" cellspacing="0" width="200">
+		<tr>
+			<td height="25" bgcolor="bd7d4a" valign="middle">
+			<font size="2" color="white"><b>&nbsp;영화 박스오피스</b></font>
+			</td>
+		</tr>
+		<tr>
+			<td height="100">
+			<font size="2">&nbsp;&nbsp;<b>1</b>&nbsp;&nbsp;히트맨<br/>
+			&nbsp;&nbsp; <b>2</b>&nbsp;&nbsp;남산의 부장들<br/>
+			&nbsp;&nbsp; <b>3</b>&nbsp;&nbsp;미스터 주<br/>
+			&nbsp;&nbsp; <b>4</b>&nbsp;&nbsp;닥터 두리들<br/>
+			&nbsp;&nbsp; <b>5</b>&nbsp;&nbsp;기생충<br/>
+			</font>
+			</td>
+		</tr>
+		<!--  -->
+		<tr>
+			<td height="25" bgcolor="bd7d4a" valign="middle">
+			<font size="2" color="white"><b>&nbsp;음반 판매 차트</b></font>
+			</td>
+		</tr>
+		<tr>
+			<td height="100">
+			<font size="2">&nbsp;&nbsp;<b>1</b>&nbsp;&nbsp;론리</font><br/>
+			&nbsp;&nbsp; <b>2</b>&nbsp;&nbsp;마말행<br/>
+			&nbsp;&nbsp; <b>3</b>&nbsp;&nbsp;노래를합시다<br/>
+			&nbsp;&nbsp; <b>4</b>&nbsp;&nbsp;아기상어뚜루뚜<br/>
+			&nbsp;&nbsp; <b>5</b>&nbsp;&nbsp;뚜루뚜빠라빠라<br/>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" height="1" bgcolor="#c6c3c6"></td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<table border="0" cellpadding="2" cellspacing="2" width="590">
+<tr>
+	<td valign="top" width="270">
+		<table border="0">
+		<tr>
+			<td><img src="./img/titrec_o.gif">
+			<font size="3"><b><font  color="#ff6900">경제</font>뉴스</b></font>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+
+<tr><td colspan="2" background="./img/3_2_dt.gif" height="1"></td></tr>
+<tr>
+	<td width="290">
+	<table border="0" align = "center" style="font-size: 10pt;" cellpadding="3">
+	<tr>
+		<td colspan="2" background="./img/subtit4_f.gif" width="268" height="35" valign="bottom" align="right">
+			<a href="">more..</a>
+		</td>
+	</tr>
+	<tr>
+		<td width="8"></td>
+		<td>지난해 파생결합증권 발행액 129조원</td>
+	</tr>
+	<tr>
+		<td width="8"></td>
+		<td>금강ㅁ원 어쩌구 저쩌구</td>
+	</tr>
+	<tr>
+		<td width="8"></td>
+		<td>고위험 상품판매 집중검사</td>
+	</tr>
+	<tr>
+		<td width="8"></td>
+		<td>다수리는 게임하고싶어서 우는중</td>
+	</tr>
+	</table>
+	</td>
+	
+	<!-- 두번째 td -->
+	
+	<td width="290">
+	<table border="0" align = "center" style="font-size: 10pt;" cellpadding="3">
+	<tr>
+		<td colspan="2" background="./img/subtit4_c.gif" width="268" height="35" valign="bottom" align="right">
+			<a href="">more..</a>
+		</td>
+	</tr>
+	<tr>
+		<td width="8"></td>
+		<td>지난해 파생결합증권 발행액 129조원</td>
+	</tr>
+	<tr>
+		<td width="8"></td>
+		<td>금강ㅁ원 어쩌구 저쩌구</td>
+	</tr>
+	<tr>
+		<td width="8"></td>
+		<td>고위험 상품판매 집중검사</td>
+	</tr>
+	<tr>
+		<td width="8"></td>
+		<td>다수리는 게임하고싶어서 우는중</td>
+	</tr>
+	</table>
+	</td>
+</tr>
+</table>
+
+</body>
+</html>
